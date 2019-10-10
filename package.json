@@ -1,0 +1,16 @@
+{
+  "name": "fullstack_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.2"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "devDependencies": {},
+  "keywords": [],
+  "author": ""
+}
